@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 
 driver = webdriver.Safari()
-SLACK_WEBHOOK_URL = "https://hooks.slack.com/workflows/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"
+SLACK_WEBHOOK_URL = "***"
 
 
 def get_url(make, model, min_year, max_price):
